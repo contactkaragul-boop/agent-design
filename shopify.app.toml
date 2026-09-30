@@ -47,7 +47,11 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ ]
+redirect_urls = [
+  "https://agent-design.onrender.com/auth/callback",
+  "https://agent-design.onrender.com/auth/shopify/callback",
+  "https://agent-design.onrender.com/api/auth/callback"
+]
 
 [build]
 automatically_update_urls_on_dev = true
